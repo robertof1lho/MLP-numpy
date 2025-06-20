@@ -31,7 +31,7 @@ dataset = [
 ]
 ```
 
-Resultados Esperados
+### Resultados Esperados
 Após o treinamento, a rede deve ser capaz de se aproximar das saídas corretas do XOR:
 
 ``` python
@@ -41,9 +41,10 @@ Input: [1 0], Esperado: 1, Predito: ~0.99
 Input: [1 1], Esperado: 0, Predito: ~0.01
 ```
 
-Observações:
-A rede foi implementada com foco didático, sem o uso de bibliotecas externas de machine learning
+## Observações:
 
-O modelo utiliza vetores de pesos para representar cada neurônio, mantendo a implementação simples e direta
+A rede foi implementada com foco didático, sem o uso de bibliotecas externas de machine learning.
 
-O objetivo desse projeto foi tentar entender os fundamentos de redes neurais e backpropagation na prática
+O modelo utiliza vetores de pesos para representar cada neurônio, mantendo a implementação simples e direta.
+
+**O objetivo desse projeto foi tentar entender os fundamentos de redes neurais e backpropagation na prática**
